@@ -1,0 +1,30 @@
+每个 (make, model) 组合下，类别与 price 的相关系数：
+price                vehicle_hatchback  vehicle_luxury sedan  \
+make          model                                            
+honda         civic           0.135474                   NaN   
+              vezel                NaN                   NaN   
+mazda         2              -0.098608             -0.043250   
+              3               0.048711                   NaN   
+mercedes-benz amg            -0.003870             -0.251572   
+              c180                 NaN             -0.059318   
+volkswagen    golf           -0.385698                   NaN   
+
+price                vehicle_mid-sized sedan  vehicle_mpv  vehicle_others  \
+make          model                                                         
+honda         civic                -0.467303          NaN             NaN   
+              vezel                      NaN          NaN             NaN   
+mazda         2                    -0.123589    -0.404678             NaN   
+              3                    -0.048711          NaN             NaN   
+mercedes-benz amg                        NaN          NaN             NaN   
+              c180                       NaN          NaN             NaN   
+volkswagen    golf                       NaN          NaN       -0.026303   
+
+price                vehicle_sports car  vehicle_stationwagon  vehicle_suv  
+make          model                                                         
+honda         civic            0.431865                   NaN          NaN  
+              vezel                 NaN                   NaN          NaN  
+mazda         2                0.072994             -0.054650     0.566291  
+              3                     NaN                   NaN          NaN  
+mercedes-benz amg              0.138614             -0.016048     0.140893  
+              c180             0.059318                   NaN          NaN  
+volkswagen    golf             0.387627              0.027290          NaN  
